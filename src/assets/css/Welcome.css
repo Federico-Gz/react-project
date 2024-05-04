@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 250px);
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.welcome-title{
+    padding: 50px;
+    font-size: 75px;
+    font-size: 3em;
+    animation: shine 1s infinite alternate;
+}
+
+.welcome-description{
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.scroll-down-btn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/*ANIMATION*/
+
+@keyframes shine {
+    0% {
+      text-shadow: none;
+      color: #fff;
+    }
+    30% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      color: rgba(255, 255, 255, 0.8);
+    }
+    100% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+      color: rgba(255, 255, 255, 1);
+    }
+}
+
+
+  
+  
+
+  
