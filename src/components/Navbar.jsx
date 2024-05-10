@@ -1,45 +1,18 @@
-import '../assets/css/Navbar.css';
-import React, { useState } from 'react';
+import '../assets/css/Navbar.css'
+import '../../public/images/favicon-16x16.png'
 
 function Navbar(){
-
-    const [animationStopped, setAnimationStopped] = useState(false);
-    
-
-    function handleStop() {
-        setAnimationStopped(true);
-    }
-
-    return(
-        <div className="navbar">
-            <div className="navbar-inner">
-                <img className={`logo-img ${animationStopped ? 'stopped' : ''}`} 
-                src="../public/images/apple-touch-icon.png" 
-                />
-            </div> 
-            <button className="stop-btn" onClick={handleStop}>
-                <ion-icon className="stop-btn-icon" name="stop-circle-outline"></ion-icon>
-            </button>
-            
-        </div>
-    )
+    return (
+      <>
+        
+        <ul className="navbar lato-light">
+          <li>Home</li>
+          <li>Contact</li>
+          <li>About</li>
+        </ul>
+        <img className="logo" src="../../public/images/android-chrome-192x192.png"></img>
+      </>
+    );
 }
 
 export default Navbar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
