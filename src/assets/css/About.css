@@ -1,0 +1,39 @@
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(230, 220, 220);
+}
+
+.about{
+    text-align: center;
+}
+
+.about h1, h2, h3{
+    padding: 20px;
+}
+
+.about h2{
+    color:rgb(74, 138, 62)
+}
+
+.about p{
+  margin: 0px 300px;  
+}
+
+.about h1::before{
+    content: url('../../public/images/animation.gif');
+}
+
+.about h1::after{
+    content: url('../../public/images/animation.gif');
+}
+
+.about h3::before{
+    content: '♦';
+    padding: 10px;
+}
+.about h3::after{
+    content: '♦';
+    padding: 10px;
+}

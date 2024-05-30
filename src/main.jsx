@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './assets/css/index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Welcome from './components/Welcome.jsx'
-import Search from './components/SearchBar.jsx'
+import SearchBar from './components/SearchBar.jsx'
+import About from './components/About.jsx'
 
 
 
@@ -13,14 +13,18 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
   },
-  {
-    path: '/welcome',
-    element: <Welcome />,
-  },
+
   {
     path: '/search',
-    element: <Search />,
+    element: <SearchBar />,
   },
+
+  {
+    path: '/about',
+    element: <About />,
+  },
+
+ 
 
 ])
 

@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    text-align: center;
 }
 
 .lato-light {
@@ -41,7 +42,6 @@
 .scroll-down-btn{
     background: transparent;
     border: none;
-    cursor: pointer;
     height: 100px;
 }
 
@@ -63,6 +63,16 @@
 }
 
 
+/*RESPONSIVE*/
+
+@media screen and (max-width: 799px) {
+    .welcome{
+        font-size: 0.8em;
+    }
+     .welcome-description{
+        font-size: 1em;
+     }
+}
   
   
 

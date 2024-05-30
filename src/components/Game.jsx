@@ -22,13 +22,13 @@ function Game() {
 
     return (
         <>
-            <div className="navbar-inner">
+            <div className="game">
                 <img className={`logo-img ${animationStopped ? 'stopped' : ''}`} src="../public/images/apple-touch-icon.png" />
             </div>
             <button className="stop-btn" onClick={handleStop}>
                 <ion-icon className="stop-btn-icon" name="stop-circle-outline"></ion-icon>
             </button>
-            {animationComplete && <Link to={`/search`}><span className='start-button'>START TO SEARCH</span></Link>}
+            {animationComplete && <Link to={`/search`}><span className='start-button lato-thin'>START TO SEARCH</span></Link>}
         </>
     )
 }

@@ -6,13 +6,18 @@
     box-sizing: border-box;
 }
 
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
 
-.navbar-inner {
+.game {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
-    width: 15%;
+    width: 250px;
     margin: auto;
     height: 160px;
     border-radius: 50px;
@@ -40,7 +45,9 @@ button ion-icon{
     justify-content: center;
     color:aquamarine;
     padding: 20px;
+    text-decoration: none;
 }
+
 
 
 
@@ -81,4 +88,11 @@ button ion-icon{
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 768px) {
+    .game
 }
