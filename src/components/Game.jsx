@@ -23,7 +23,7 @@ function Game() {
     return (
         <>
             <div className="game">
-                <img className={`logo-img ${animationStopped ? 'stopped' : ''}`} src="../public/images/apple-touch-icon.png" />
+                <img className={`logo-img ${animationStopped ? 'stopped' : ''}`} src="/public/images/apple-touch-icon.png" />
             </div>
             <button className="stop-btn" onClick={handleStop}>
                 <ion-icon className="stop-btn-icon" name="stop-circle-outline"></ion-icon>

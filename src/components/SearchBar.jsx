@@ -74,7 +74,7 @@ function SearchBar() {
             </button>
             {noRecipes && (
                 <div className="no-recipes-alert">
-                    <img src="../../public/images/ops.gif" />
+                    <img src="/public/images/ops.gif" />
                     <p className="lato-thin">No recipes founded</p>
                 </div>
             )}

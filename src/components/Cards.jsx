@@ -32,7 +32,7 @@ function Cards({ recipes, searchRecipeDetails }) {
                     <img src={recipe.image} alt={recipe.title} />
                 </div>
             ))}
-            {loading && <img className="loading" src="../public/images/loading.gif"/>}
+            {loading && <img className="loading" src="/public/images/loading.gif"/>}
         </div>
     );
 }
