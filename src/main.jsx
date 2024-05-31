@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './assets/css/index.css'
+import './main.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import SearchBar from './components/SearchBar.jsx'
 import About from './components/About.jsx'

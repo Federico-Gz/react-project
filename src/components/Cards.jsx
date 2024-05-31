@@ -28,7 +28,7 @@ function Cards({ recipes, searchRecipeDetails }) {
         <div className="cards-container">
             {recipes.map((recipe, index) => (
                 <div className="card" key={index} onClick={() => handleCardClick(recipe.id) }>
-                    <p className="lato-thin" >{truncateTitle(recipe.title, 30)}</p>
+                    <p>{truncateTitle(recipe.title, 30)}</p>
                     <img src={recipe.image} alt={recipe.title} />
                 </div>
             ))}

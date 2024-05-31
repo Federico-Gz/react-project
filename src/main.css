@@ -1,0 +1,11 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: radial-gradient(circle, rgb(17, 39, 21) 7%, rgb(52, 36, 83) 74%);
+  font-family: "Lato", sans-serif;
+}

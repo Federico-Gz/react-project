@@ -6,8 +6,8 @@ function About(){
     return (
       <>
         <Navbar />
-        <div className="about lato-thin">
-          <h1>Welcome to our Recipe Web App!</h1>
+        <div className="about">
+          <h1>Welcome to your VeggieRecipesVault!</h1>
           <p>
             Our web app offers you a simple and fast way to find and discover
             delicious recipes. With a wide range of options and a vast selection

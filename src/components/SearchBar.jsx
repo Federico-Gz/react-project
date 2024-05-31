@@ -75,7 +75,7 @@ function SearchBar() {
             {noRecipes && (
                 <div className="no-recipes-alert">
                     <img src="/public/images/ops.gif" />
-                    <p className="lato-thin">No recipes founded</p>
+                    <p>No recipes founded</p>
                 </div>
             )}
             <Cards recipes={recipes}  searchRecipeDetails={searchRecipeDetails} />
