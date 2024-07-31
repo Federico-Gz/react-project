@@ -36,7 +36,7 @@
 .welcome-description{
     padding: 40px;
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .scroll-down-btn{
@@ -65,13 +65,52 @@
 
 /*RESPONSIVE*/
 
-@media screen and (max-width: 799px) {
+/*RESPONSIVE*/
+@media screen and (max-width: 960px) {
     .welcome{
         font-size: 0.8em;
     }
-     .welcome-description{
-        font-size: 1em;
-     }
+    
+}
+
+
+@media screen and (max-width: 720px) {
+    .welcome{
+        font-size: 0.6em;
+    }
+
+    .welcome-title{
+        padding: 20px;
+    }
+
+    .welcome-description{
+        padding: 20px;
+    }
+
+    .scroll-down-btn{
+        height: 80px;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .welcome{
+        font-size: 0.4em;
+    }
+
+    .welcome-title{
+        padding: 10px;
+    }
+
+    .welcome-description{
+        padding: 10px;
+    }
+
+    .scroll-down-btn{
+        height: 60px;
+    }
+   
 }
   
   
