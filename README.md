@@ -35,7 +35,8 @@ npm install
 npm start
 
 
-Alternatively, you can test the app directly by visiting this link.
+Alternatively, you can test the app directly by visiting thiS [LINK](https://react-project-fg.netlify.app)
+
 
 Contributions
 Contributions are welcome! Feel free to open an issue or create a pull request with improvements, bug fixes, or new features.
